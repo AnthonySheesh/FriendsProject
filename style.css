@@ -1,0 +1,296 @@
+.sticky-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    height: 3em;
+    background-color: #FFFFE0;
+  }
+  
+  .logo img {
+   width: 100px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+    /* font customize */
+    font-family: 'MyFont';
+    
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #228B22;
+  }
+  
+  .full-page-content {
+    height: 90vh;
+
+  }
+  
+  section {
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+  
+  section h1 {
+    margin-bottom: 20px;
+  }
+  @font-face {
+    font-family: 'MyFont';
+    src: url('GABRWFFR.TTF');
+  }
+  @font-face {
+    font-family: 'body';
+    src: url('Montserrat-VariableFont_wght.ttf');
+  }
+
+  h1{
+    font-family: 'MyFont';
+    color:  #1E90FF;
+    font-size: 5em;
+    /* text-outline */
+    text-shadow: 2px 2px 4px #000000;
+  }
+  h2{
+    font-family: 'MyFont';
+    color:  #1E90FF;
+    font-size: 2em;
+    /* text-outline */
+    text-shadow: 2px 2px 4px #000000;
+  }
+  p{
+    font-family: 'body';
+    color:white;
+    font-size: 25px;
+
+  }
+  nav a.active {
+    color: #0074d9;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding-top: 15px;
+    padding: 24px;
+    text-align: center;
+  }
+/*  to rgba */
+  
+  #section1{
+    background-image: url('my.jpg'), linear-gradient(rgba(255, 182, 193, 1),rgba(221, 160, 221,0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    /* half page size */
+    height: 80vh;
+    
+  }
+
+  #section1 p{
+    font-size: 2em;
+    background-color: white;
+    /* background opacity */
+    background-color: rgba(255, 255, 255, 0.5);
+    /* larger padding */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    color: #741a21;
+  }
+
+  #section2{
+    background-image: url('my.jpg'), linear-gradient(rgba(255, 182, 193, 1),rgba(221, 160, 221,0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    /* half page size */
+    height: 100vh;
+ 
+
+  }
+  .friends-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .friend-box {
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    /* shadow */
+  }
+.friend-box img:hover{
+/* largen */
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+  .friend-box p{
+    /* shadow */
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  #section2 img{
+    width: 250px;
+    height: 250px;
+  background-color: #000000;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .rounded-button {
+    width: 200px;
+    height: 80px;
+    padding: 0px 20px;
+    background-color: #0074D9;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 50px;
+  }
+
+
+  .rounded-button:hover {
+    background-color: #fff;
+    color: #0074D9;
+    border: 2px solid #0074D9;
+  }
+
+  nav a{
+    /* background color */
+    background-color: #ADD8E6;
+    /* padding */
+    padding: 10px;
+    /* border radius */
+    border-radius: 5px;
+    color: #1E90FF;
+  }
+
+  nav a:hover {
+    color: #ADD8E6;
+    background-color: #1E90FF;
+    /* wider padding */
+    padding: 10px;
+    border-radius: 10px;
+
+  }
+  #section3 img{
+    width: 250px;
+    height: 250px;
+  background-color: #000000;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  #section3 p{
+    font-size: 1.3em;
+
+  }
+  #section3{
+    background-image: url('my.jpg'), linear-gradient(rgba(255, 182, 193, 1),rgba(221, 160, 221,0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    /* half page size */
+    height: 100vh;
+  }
+  
+.Highlight{
+  color: #741a21;
+  /* background color white with 0.5 opacity */
+  background-color: rgba(255, 255, 255, 0.8);
+  /* padding */
+  padding: 20px;
+  /* border radius */
+  border-radius: 10px;
+  /* text align */
+  text-align: center;
+  /* shadow */
+  /* text shadow */
+
+}
+
+#section4{
+  background-image: url('Images/HS.jpg'), linear-gradient(rgba(255, 182, 193, 1),rgba(221, 160, 221,0.5));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  /* half page size */
+  height: 100vh;
+
+  
+}
+
+#section5{
+  /* background color gradient */
+  background-image:linear-gradient(rgba(255, 182, 193, 1),rgba(221, 160, 221,0.5));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  /* half page size */
+  height: 100vh;
+}
+
+#section6{
+  background-image: url('Images/SHS.jpg'), linear-gradient(rgba(255, 182, 193, 1),rgba(221, 160, 221,0.5));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  /* half page size */
+  height: 100vh;
+
+  
+}
+
+#section7{
+  background-image: url('Images/College.jpg'), linear-gradient(rgba(255, 182, 193, 1),rgba(221, 160, 221,0.5));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  /* half page size */
+  height: 100vh;
+
+  
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+td img {
+  width: 15rem;
+  height: 15rem;
+}
+
+
